@@ -5,3 +5,6 @@ def divisor(n):
       num_list.append(i)
   
   return num_list
+
+n = int(input("Please enter a number: "))
+print("The divisors for this number are: ", divisor(n))
