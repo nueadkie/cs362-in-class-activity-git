@@ -6,5 +6,12 @@ def divisor(n):
   
   return num_list
 
-n = int(input("Please enter a number: "))
-print("The divisors for this number are: ", divisor(n))
+while True:
+  n = input("Please enter a number: ")
+  if n.isdigit():
+    n = int(n)
+    break
+  else:
+    print("Invalid input.")
+
+print("The divisors for", n, "are:", divisor(n))
