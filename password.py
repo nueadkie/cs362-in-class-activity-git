@@ -1,4 +1,6 @@
 import random
 
 def password_gen(n):
-  pass
+  password = []
+  for i in range(n):
+    pass
