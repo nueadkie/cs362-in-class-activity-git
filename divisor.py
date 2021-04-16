@@ -2,4 +2,6 @@ def divisor(n):
   num_list = []
   for i in range(1, n + 1):
     if n % i == 0:
-      pass
+      num_list.append(i)
+  
+  return num_list
