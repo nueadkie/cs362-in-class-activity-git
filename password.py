@@ -4,5 +4,5 @@ def password_gen(n):
   symbols = "!@#$%^&*()QWERTYUIOPASDFGHJKLZXCVBNM1234567890qwertyuiopasdfghjklzxcvbnm"
   password = ""
   for i in range(n):
-    pass
+    password += random.choice(symbols)
   return password
